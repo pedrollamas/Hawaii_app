@@ -72,6 +72,7 @@ col1, col2 = st.columns(2)
 with col1:
         st.header('Un poco de historia de Hawaii')
         st.image('img/history.jp.jpeg')
+        st.text("https://www.so-rummet.se/aret-runt/james-cook-dodas-av-urinvanare-pa-hawaii")
         
 with col2:
 
