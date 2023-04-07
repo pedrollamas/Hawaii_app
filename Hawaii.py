@@ -64,6 +64,7 @@ col1, col2 = st.columns(2)
 with col2:
    
    st.image("img/equipaje.jpg")
+   st.text("Fuente: www.pixabay.com")
 with col1:
         st.header('Introducción')
         st.markdown("<h5 style='text-align: justify;'>Hawaii es un archipiélago situado en medio del Océano Pacífico que conforma uno de los estados insulares de los Estados Unidos. Con una población total de 1.211.537 habitantes, este conjunto de islas representa uno de los destinos turísticos más importantes de la Polinesia. Su capital es Honoloulu, que es, a su vez, la ciudad más grande y poblada de toda la isla (ubicada en la isla de Oahu). A su vez, Hawaii es el nombre que recibe la isla más grande de este archipiélago; seguida en orden de importancia, por Niihau, Lanai, Maui, Kahoolawe, Molokai y Oahu. Hemos dedicado una sección sobre las islas de Hawaii, dónde encontrarás más información sobre cada isla. Este archipiélago comparte algunos parecidos con muchas de las islas perdidas en medio del océano: la composición de su suelo. Son islas volcánicas que poseen condiciones ambientales únicas en el mundo y, debido a ello, también cuentan con una fauna y flora endémica, que vale la pena conocer.</h5>", unsafe_allow_html=True)
@@ -72,7 +73,7 @@ col1, col2 = st.columns(2)
 with col1:
         st.header('Un poco de historia de Hawaii')
         st.image('img/history.jp.jpeg')
-        st.text("https://www.so-rummet.se/aret-runt/james-cook-dodas-av-urinvanare-pa-hawaii")
+        st.text("Fuente: www.so-rummet.se/aret-runt/james-cook-dodas-av-urinvanare-pa-hawaii")
         
 with col2:
 
@@ -82,6 +83,7 @@ col1, col2 = st.columns(2)
 with col2:
         
         st.image('img/hula.jpg')
+        st.text("Fuente: www.happyhawaii.es")
 with col1:
         st.header('Cultura en Hawaii')
         st.markdown("<h5 style='text-align: justify;'>La diversa cultura de Hawái se expresa, entre otras cosas, en el idioma, la música, el arte, el teatro, la danza, el cine, la gastronomía y una gran cantidad de festivales. El espíritu de aloha se encuentra en el núcleo de todo: en el arco fluido de las manos de una bailarina de hula o en el ritmo suave de una guitarra slack-key. El espíritu aloha es la coordinación de mente y corazón en cada persona. Lleva a cada persona a su propio ser. Cada persona debe pensar y transmitir buenos sentimientos a los demás. En la contemplación y presencia de la fuerza vital.La isla de Hawaii ha estado habitada por distintos grupos étnicos, esto ha derivado en la formación de una cultura ecléctica, que se ha ido afirmando a lo largo del tiempo beneficiándose con la mezcla de las distintas culturas. Esto vuelve a Hawaii un destino realmente interesante ya que cuenta con un variado y auténtico bagaje artístico, destacándose las danzas, las artesanías y la gastronomía.<h5 style='text-align: justify;'>", unsafe_allow_html=True)
