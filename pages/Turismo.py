@@ -160,12 +160,14 @@ with tab2:
         st.markdown("<h5 style='text-align: justify;'>La isla de Kauai se reconoce por tener un amplio abanico de actividades, lo que la hace una isla atractiva para diferentes tipos de turistas. Desde playas de aguas cristalina, tanto accesibles como ocultas tras kms de camino a pie. Ofrece diferentes rutas de senderismo que para aquel que desea disfrutar de un día de deporte en un paraiso es perfecta. A su vez, es conocida por tener varios campos de golf, incluyendo el Princeville resort que podemos ver debajo y por último, es un lugar donde se ofrecen varias actividades acuáticas como kayak, submarinismo, etc.<h5 style='text-align: justify;'>", unsafe_allow_html=True)
         st.image("img/princeville.jpg")
         st.text("Princeville Resort")
+        st.text("Fuente: www.fivestaralliance.com")
         
     with col2:
         st.image("img/barras_kauai.png")
         st.markdown("<h5 style='text-align: justify;'>La zona de Koloa y Poipu, que podemos observar como las más caras. Se encuentra situada en una ubicación excepcional, a escasos 15 minutos en coche del aeropuerto y 10 del campo de golf Kukuiolono. Además en sus cercanías encontramos 4 playas significativas, una escuela de vuelo y dos reservas naturales. Una ubicación ideal que tiene su efecto en el precio por noche.<h5 style='text-align: justify;'>", unsafe_allow_html=True)
         st.image("img/koloa.jpg")
         st.text("Koloa Landing Resort")
+        st.text("Fuente: www.koloalandingresort.com")
 
 with tab3:
     col1, col2 = st.columns(2)
@@ -209,11 +211,13 @@ with tab3:
         st.markdown("<h5 style='text-align: justify;'>Es la isla más poblada y conocida del archipiélago, con alrededor de 900.000 habitantes, en la que se encuentra la capital Honolulú. Alberga diferentes atractivos turísticos como la base naval de Pearl Harbor, la propia ciudad de Honolulú, la bahía de Hanauma, ideal para hacer buceo y la Diamond Head, una toba volcánica que goza de un importante prestigio.<h5 style='text-align: justify;'>", unsafe_allow_html=True)
         st.image("img/harbor.jpg")
         st.text("Pearl Harbor memorial")
+        st.text("Fuente: www.nps.gov")
         
     with col2:
         st.image("img/barras_honolulu.png")
         st.image("img/diamond.jpg")
         st.text("Diamond Head")
+        st.text("Fuente: www.travelawaits.com")
         
 with tab4:
     col1, col2 = st.columns(2)
@@ -256,10 +260,14 @@ with tab4:
         
         st.markdown("<h5 style='text-align: justify;'>Hilo es la ciudad más grande de la isla de Hawaii con alrededor de 50.000 habitantes. Por ello los alojamientos son más baratos que como podemos observar en Kohala, que se encuentra entre dos reservas naturales y tiene alojamientos en poblaciones más exclusivas. En south Kohala se encuentran una serie de resorts cercanos a un club de golf que encarecen la estancia promedio.<h5 style='text-align: justify;'>", unsafe_allow_html=True)
         st.image("img/hilo.jpg")
+        st.text("Hilo")
+        st.text("Fuente: www.staykuono.com")
     
     with col2:
         st.image("img/barras_hawaii.png")
         st.image("img/mauna.jpg")
+        st.text("Mauna")
+        st.text("Fuente: www.thetimes.co.uk")
         
     
         
