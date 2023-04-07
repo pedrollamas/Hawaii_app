@@ -73,6 +73,8 @@ with tab1:
         
         st.markdown("<h5 style='text-align: justify;'> Lahaina, en la isla de Maui por el contrario representa la historia de Hawaii y es conocido por ser el centro cultural del archipiélago. Con un templo budista que data de 1931, hablamos de un pueblo muy rico en historia que se ha reconvertido a un punto clave del turismo del archipélago. Siendo capital del archipiélago al principio del siglo XIX y reconocido por sus avistamientos de ballenas. Residió durante un periodo de tiempo Herman Melville, autor de Moby-Dick entre otras novelas.<h5 style='text-align: justify;'>", unsafe_allow_html=True)
         st.image("img/lahaina.jpg")
+        st.text("Lahaina")
+        st.text("Fuente: www./a.cdn-hotels.com")
     
     with col1:
         feq = listings[listings['accommodates']==2] 
@@ -113,6 +115,8 @@ with tab1:
         
         st.markdown("<h5 style='text-align: justify;'> Moloka'i es la isla que más se intenta resistir al turismo masificado e invasivo de todo el archipiélago hawaiano, por ello la oferta hotelera es muy reducida y alejada de lo que el típico turista espera encontrar en una isla paradisiaca. Los residentes de esta isla prefieren que el visitante venga con la intención de empaparse la cultura que ellos intentan preservar, por lo que si buscas la típica experiencia turística este no es tu lugar.<h5 style='text-align: justify;'>", unsafe_allow_html=True)
         st.image("img/molokai.jpg")
+        st.text("Molokai")
+        st.text("Fuente: www.forbes.com")
 
 with tab2:
     col1, col2 = st.columns(2)
