@@ -119,7 +119,7 @@ with tab2:
     with col1:
         feq = listings[listings['accommodates']==2] 
         feq = feq.groupby('neighbourhood')['price'].mean().sort_values(ascending=True) 
-        adam = gpd.read_file("/Users/pedrollamaslopez/Desktop/Curso_upgrade/Módulo_2/16-Data StoryTelling/Hawaii/data/neighbourhoods.geojson") 
+        adam = gpd.read_file("data/neighbourhoods.geojson") 
         feq = pd.DataFrame([feq]) 
         feq = feq.transpose() 
 
@@ -168,7 +168,7 @@ with tab3:
     with col1:
         feq = listings[listings['accommodates']==2] 
         feq = feq.groupby('neighbourhood')['price'].mean().sort_values(ascending=True) 
-        adam = gpd.read_file("/Users/pedrollamaslopez/Desktop/Curso_upgrade/Módulo_2/16-Data StoryTelling/Hawaii/data/neighbourhoods.geojson") 
+        adam = gpd.read_file("data/neighbourhoods.geojson") 
         feq = pd.DataFrame([feq]) 
         feq = feq.transpose() 
 
@@ -216,7 +216,7 @@ with tab4:
     with col1:
         feq = listings[listings['accommodates']==2] 
         feq = feq.groupby('neighbourhood')['price'].mean().sort_values(ascending=True) 
-        adam = gpd.read_file("/Users/pedrollamaslopez/Desktop/Curso_upgrade/Módulo_2/16-Data StoryTelling/Hawaii/data/neighbourhoods.geojson") 
+        adam = gpd.read_file("data/neighbourhoods.geojson") 
         feq = pd.DataFrame([feq]) 
         feq = feq.transpose() 
 
