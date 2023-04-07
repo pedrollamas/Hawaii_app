@@ -13,6 +13,14 @@ rain(
     falling_speed=6,
     animation_length="infinite",
 )
+
+rain(
+    emoji="🏖️",
+    font_size=50,
+    falling_speed=4,
+    animation_length="infinite",
+)
+
 hide_menu_style = """
         <style>
         footer {visibility: hidden;}
