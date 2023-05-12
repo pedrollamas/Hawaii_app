@@ -1,6 +1,6 @@
 # Análisis Airbnb Hawaii
 
-#### Estructura del proyecto:
+### Estructura del proyecto:
 Este proyecto se trata de un análisis de los datos proporcionados por insideairbnb.com del archipiélago hawaiano. 
 
 Dentro de la app de streamlit encontrarás diferentes páginas:
@@ -12,9 +12,9 @@ Dentro de la app de streamlit encontrarás diferentes páginas:
 * Valoraciones: análisis del dataset de reviews proporcionado por Insideairbnb.
 * Agradecimientos. algunas de las páginas consultadas para la realización del proyecto.
 
-#### Guía de Uso:
+### Guía de Uso:
 * Accede a la app de streamlit a través de este enlace https://pedrollamas-hawaii-app-hawaii-z01sd1.streamlit.app/
 * Si te aparece desactivada no te preocupes, actívala de nuevo y en unos minutos podrás verla.
 
-#### Contacto:
+### Contacto:
 Si deseas ponerte en contacto conmigo para realizar sugerencias del proyecto te invito a mandarme un email a pedrollamaslopez@hotmail.com o escribirme a través de Linkedin en https://www.linkedin.com/in/pedrollamaslopez/
